@@ -1,6 +1,6 @@
-# Laravel course
+## Laravel course
 
-### get start
+### setting
 1) git clone  ... 
 2) etc/hosts - add new  127.0.0.1  <name>.loc
  ```sudo nano /etc/hosts```
@@ -9,3 +9,8 @@
 5) docker stop / build
 6) add new data base
 7) docker exec *** > cd container > composer install > key:generate > migrate
+
+
+### get start
+1) ``` npm install ```
+2) ``` npm run watch ```

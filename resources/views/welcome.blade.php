@@ -1,13 +1,7 @@
 @extends('layouts.index')
 
 @section('content')
-
-    <div class="row">
-
-        <div class="col-12">
-            <h1>Laravel course!</h1>
-        </div>
-
+    <div class="mcontainer">
+        <h1 class="welcome">Hello world!</h1>
     </div>
-
 @endsection

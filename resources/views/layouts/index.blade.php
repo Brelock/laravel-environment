@@ -11,11 +11,18 @@
 </head>
 <body>
 
-    @include('layouts.header')
+  <div class="mainWrapper">
+    <div class="contentWrapper">
+      @include('layouts.headers.header')
 
-    <div id="app" class="container py-2">
-        @yield('content')
+      <div id="app" class="container">
+          @yield('content')
+      </div>
+
+
     </div>
+      @include('layouts.footers.footer')
+  </div>
 
     <script src="{{ asset('js/app.js') }}"></script>
 </body>

@@ -16,7 +16,7 @@ Route::get('/', function () {
 })->name('welcome');
 
 Route::get('/contact', function () {
-    return view('contact.index');
+    return view('contact.index-front');
 })->name('contact');
 
 Route::resource('/products', 'ProductsController');
