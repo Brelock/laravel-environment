@@ -2,14 +2,12 @@
 
 ### setting
 1) git clone  ... 
-2) etc/hosts - add new  127.0.0.1  <name>.loc
+2) etc/hosts - add <name>.loc
  ```sudo nano /etc/hosts```
-3) copy .env 
 4) docker/njinx/vhost - add server config
-5) docker stop / build
-6) add new data base
-7) docker exec *** > cd container > composer install > key:generate > migrate
-
+5) docker-compose up -d --build
+7) docker exec *** > cd container > composer install
+8) sudo chmod 777 -R storage 
 
 ### get start
 1) ``` npm install ```
